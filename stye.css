@@ -1,0 +1,176 @@
+font-family: "EB Garamond", serif;
+font-family: "Playfair Display", serif;
+font-family: "Roboto", sans-serif;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Adjusting site to center position */
+body {
+  max-width: 960px;
+  margin: auto;
+  background-image: linear-gradient(to right, #fff1e3, #7fb29c);
+  color: rgba(0, 0, 0, 0.637);
+}
+
+/* H1 styling */
+#heading {
+  padding: 20px;
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 50px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+/* H1 mouse over link */
+#heading:hover {
+  color: #0097b5;
+  cursor: pointer;
+}
+
+/* Styler for all H2 */
+.h2_container {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+/* H2 hover effect with underline */
+h2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #ee4d2f;
+}
+
+h2:active {
+  text-decoration: underline #0097b5;
+}
+
+/* Styling section, section2 and section3 containers */
+#section1,
+#section2,
+#section3 {
+  border: solid 1px #ab9cd1;
+  margin: 50px;
+  padding: 100px;
+  font-size: 20px;
+  border-radius: 50px;
+  box-shadow: 1px 2px 3px 4px rgba(20, 20, 20, 0.4);
+}
+
+/* Adding border style to each color box */
+figure {
+  border: black solid 2px;
+  text-align: center;
+  padding: 50px;
+  border-radius: 50px;
+  margin: 20px;
+  box-shadow: 1px 2px 3px 4px rgba(20, 20, 20, 0.3);
+}
+
+/* Color boxes hover over effect */
+figure:hover {
+  background-color: #a7a7a7;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+/* Styling each box with color property separately */
+#beige {
+  background-color: #e3dbd3;
+  object-fit: cover;
+}
+
+#olive_green {
+  background-color: #9cb2a5;
+  object-fit: cover;
+}
+
+#blue {
+  background-color: #8ba4b3;
+  object-fit: cover;
+}
+
+#dust_pink {
+  background-color: #c8b7c9;
+  object-fit: cover;
+}
+
+/* H3 hover underline hover effect */
+h3:hover {
+  text-decoration: underline #1cffb3;
+  cursor: pointer;
+  padding: 10px;
+}
+
+/*  Styling section 2 with font styles content adding different font and font-weight */
+
+/* Font weight and size*/
+article {
+  font-size: 17px;
+}
+
+.italic_text {
+  font-style: italic;
+}
+
+.bold_text {
+  font-weight: bold;
+}
+
+/*Font Family */
+#roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+#playfair_display {
+  font-family: "Playfair Display", serif;
+}
+
+#EB_Garamond {
+  font-family: "EB Garamond", serif;
+}
+
+/* p hover effect */
+.normal_text:hover,
+.italic_text:hover,
+.bold_text:hover {
+  background-color: #f1f380;
+  opacity: 0.5;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+/* links hover effect */
+li:hover {
+  background-color: #656ddc;
+  opacity: 0.3;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.H1_main_page:hover {
+  color: #ff5ec2;
+  cursor: pointer;
+}
+
+.P_text:hover {
+  color: #17e2af;
+  cursor: pointer;
+}
+
+/* Animation/ GIF */
+img {
+  border-radius: 50px;
+  box-shadow: 1px 2px 3px 4px rgba(20, 20, 20, 0.4);
+  margin-left: 250px;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 10px;
+}
